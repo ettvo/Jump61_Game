@@ -1,0 +1,14 @@
+#* java -ea jump61.Main
+# Simple 2x2 test with both players manual. Blue should win.
+# Warning: this is a case where the last move causes an infinite
+# loop unless you are careful to stop as soon as the board is all red or
+# all blue
+size 2
+manual Blue
+1 1
+1 2
+2 1
+dump
+1 2
+#*win+
+quit

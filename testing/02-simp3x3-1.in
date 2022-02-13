@@ -1,0 +1,25 @@
+#* java -ea jump61.Main
+# Simple 3x3 test.
+# Warning: this is a case where the last move causes an infinite
+# loop unless you are careful to stop as soon as the board is all red or
+# all blue
+size 3
+manual red
+manual blue
+1 1
+2 3
+2 2
+3 3
+2 2
+2 3
+1 3
+2 3
+2 1
+dump
+3 1
+2 1
+2 2
+# Since the game is finished, this should immediately terminate the
+# game with a "Blue wins." message.
+#*win+
+quit
