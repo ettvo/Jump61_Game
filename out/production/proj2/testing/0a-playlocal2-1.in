@@ -1,0 +1,8 @@
+#* java -ea jump61.Main
+# Checks that the AI can play against itself locally on a 4x4 board where the game does not change (0a-playlocal2-1.in)
+size 4
+seed 123456
+auto red
+auto blue
+dump
+quit

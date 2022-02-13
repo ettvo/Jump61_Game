@@ -1,0 +1,24 @@
+#* java -ea jump61.Main
+# Check that the program can play against another version of itself
+# without blowing up.
+size 4
+seed 1234042
+manual blue
+2 1
+1 1
+3 3
+1 4
+4 4
+1 1
+3 3
+2 1
+3 3
+2 4
+3 4
+3 1
+3 3
+dump
+auto blue
+#*move
+#*remote move/win
+quit

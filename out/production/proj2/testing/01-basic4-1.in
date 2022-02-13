@@ -1,0 +1,11 @@
+#* java -ea jump61.Main
+# Test the 'size' command.
+size 4
+dump
+manual blue
+set 1 1 2 r
+set 2 1 2 b
+dump
+size 5
+dump
+quit
